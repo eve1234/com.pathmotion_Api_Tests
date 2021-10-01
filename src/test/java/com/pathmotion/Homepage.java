@@ -1,17 +1,14 @@
 package com.pathmotion;
 
-import io.restassured.RestAssured;
-import io.restassured.response.Response;
 
-import org.json.JSONObject;
+import io.restassured.response.Response;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-
 import static io.restassured.RestAssured.given;
 import io.restassured.specification.RequestSpecification;
-import jdk.internal.net.http.common.Log;
 
-import io.restassured.path.json.JsonPath;
+
+
 
 
 public class Homepage {
