@@ -2,15 +2,15 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-10-01T14:11:57Z" name="Default suite" finished-at="2021-10-01T14:12:26Z" duration-ms="28788">
+  <suite started-at="2021-10-01T15:35:23Z" name="Default suite" finished-at="2021-10-01T15:35:26Z" duration-ms="3095">
     <groups>
     </groups>
-    <test started-at="2021-10-01T14:11:57Z" name="Default test" finished-at="2021-10-01T14:12:26Z" duration-ms="28788">
+    <test started-at="2021-10-01T15:35:23Z" name="Default test" finished-at="2021-10-01T15:35:26Z" duration-ms="3095">
       <class name="com.pathmotion.Homepage">
-        <test-method signature="getHitsCount()[pri:0, instance:com.pathmotion.Homepage@290222c1]" started-at="2021-10-01T14:11:57Z" name="getHitsCount" finished-at="2021-10-01T14:12:26Z" duration-ms="28355" status="PASS">
+        <test-method signature="getDiscussionHitCounts()[pri:0, instance:com.pathmotion.Homepage@659499f1]" started-at="2021-10-01T15:35:23Z" name="getDiscussionHitCounts" finished-at="2021-10-01T15:35:26Z" duration-ms="3071" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getHitsCount -->
+        </test-method> <!-- getDiscussionHitCounts -->
       </class> <!-- com.pathmotion.Homepage -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

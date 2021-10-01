@@ -1,0 +1,1143 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "discussions": {
+      "type": "object",
+      "properties": {
+        "hits": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "title": {
+                  "type": "string"
+                },
+                "body": {
+                  "type": "string"
+                },
+                "category": {
+                  "type": "string"
+                },
+                "id": {
+                  "type": "string"
+                },
+                "upvote_count": {
+                  "type": "integer"
+                },
+                "view_count": {
+                  "type": "integer"
+                },
+                "created_at": {
+                  "type": "string"
+                },
+                "urlid": {
+                  "type": "string"
+                },
+                "last_posted_at": {
+                  "type": "string"
+                },
+                "reply_count": {
+                  "type": "integer"
+                },
+                "locked": {
+                  "type": "boolean"
+                },
+                "best": {
+                  "type": "string"
+                },
+                "created_at_timestamp": {
+                  "type": "integer"
+                },
+                "last_posted_at_timestamp": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "title",
+                "body",
+                "category",
+                "id",
+                "upvote_count",
+                "view_count",
+                "created_at",
+                "urlid",
+                "last_posted_at",
+                "reply_count",
+                "locked",
+                "best",
+                "created_at_timestamp",
+                "last_posted_at_timestamp"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "title": {
+                  "type": "string"
+                },
+                "body": {
+                  "type": "string"
+                },
+                "category": {
+                  "type": "string"
+                },
+                "id": {
+                  "type": "string"
+                },
+                "upvote_count": {
+                  "type": "integer"
+                },
+                "view_count": {
+                  "type": "integer"
+                },
+                "created_at": {
+                  "type": "string"
+                },
+                "urlid": {
+                  "type": "string"
+                },
+                "last_posted_at": {
+                  "type": "string"
+                },
+                "reply_count": {
+                  "type": "integer"
+                },
+                "locked": {
+                  "type": "boolean"
+                },
+                "best": {
+                  "type": "string"
+                },
+                "created_at_timestamp": {
+                  "type": "integer"
+                },
+                "last_posted_at_timestamp": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "title",
+                "body",
+                "category",
+                "id",
+                "upvote_count",
+                "view_count",
+                "created_at",
+                "urlid",
+                "last_posted_at",
+                "reply_count",
+                "locked",
+                "best",
+                "created_at_timestamp",
+                "last_posted_at_timestamp"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "title": {
+                  "type": "string"
+                },
+                "body": {
+                  "type": "string"
+                },
+                "category": {
+                  "type": "string"
+                },
+                "id": {
+                  "type": "string"
+                },
+                "upvote_count": {
+                  "type": "integer"
+                },
+                "view_count": {
+                  "type": "integer"
+                },
+                "created_at": {
+                  "type": "string"
+                },
+                "urlid": {
+                  "type": "string"
+                },
+                "last_posted_at": {
+                  "type": "string"
+                },
+                "reply_count": {
+                  "type": "integer"
+                },
+                "locked": {
+                  "type": "boolean"
+                },
+                "best": {
+                  "type": "string"
+                },
+                "created_at_timestamp": {
+                  "type": "integer"
+                },
+                "last_posted_at_timestamp": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "title",
+                "body",
+                "category",
+                "id",
+                "upvote_count",
+                "view_count",
+                "created_at",
+                "urlid",
+                "last_posted_at",
+                "reply_count",
+                "locked",
+                "best",
+                "created_at_timestamp",
+                "last_posted_at_timestamp"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "title": {
+                  "type": "string"
+                },
+                "body": {
+                  "type": "string"
+                },
+                "category": {
+                  "type": "string"
+                },
+                "id": {
+                  "type": "string"
+                },
+                "upvote_count": {
+                  "type": "integer"
+                },
+                "view_count": {
+                  "type": "integer"
+                },
+                "created_at": {
+                  "type": "string"
+                },
+                "urlid": {
+                  "type": "string"
+                },
+                "last_posted_at": {
+                  "type": "string"
+                },
+                "reply_count": {
+                  "type": "integer"
+                },
+                "locked": {
+                  "type": "boolean"
+                },
+                "best": {
+                  "type": "string"
+                },
+                "created_at_timestamp": {
+                  "type": "integer"
+                },
+                "last_posted_at_timestamp": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "title",
+                "body",
+                "category",
+                "id",
+                "upvote_count",
+                "view_count",
+                "created_at",
+                "urlid",
+                "last_posted_at",
+                "reply_count",
+                "locked",
+                "best",
+                "created_at_timestamp",
+                "last_posted_at_timestamp"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "title": {
+                  "type": "string"
+                },
+                "body": {
+                  "type": "string"
+                },
+                "category": {
+                  "type": "string"
+                },
+                "id": {
+                  "type": "string"
+                },
+                "upvote_count": {
+                  "type": "integer"
+                },
+                "view_count": {
+                  "type": "integer"
+                },
+                "created_at": {
+                  "type": "string"
+                },
+                "urlid": {
+                  "type": "string"
+                },
+                "last_posted_at": {
+                  "type": "string"
+                },
+                "reply_count": {
+                  "type": "integer"
+                },
+                "locked": {
+                  "type": "boolean"
+                },
+                "best": {
+                  "type": "string"
+                },
+                "created_at_timestamp": {
+                  "type": "integer"
+                },
+                "last_posted_at_timestamp": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "title",
+                "body",
+                "category",
+                "id",
+                "upvote_count",
+                "view_count",
+                "created_at",
+                "urlid",
+                "last_posted_at",
+                "reply_count",
+                "locked",
+                "best",
+                "created_at_timestamp",
+                "last_posted_at_timestamp"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "title": {
+                  "type": "string"
+                },
+                "body": {
+                  "type": "string"
+                },
+                "category": {
+                  "type": "string"
+                },
+                "id": {
+                  "type": "string"
+                },
+                "upvote_count": {
+                  "type": "integer"
+                },
+                "view_count": {
+                  "type": "integer"
+                },
+                "created_at": {
+                  "type": "string"
+                },
+                "urlid": {
+                  "type": "string"
+                },
+                "last_posted_at": {
+                  "type": "string"
+                },
+                "reply_count": {
+                  "type": "integer"
+                },
+                "locked": {
+                  "type": "boolean"
+                },
+                "best": {
+                  "type": "string"
+                },
+                "created_at_timestamp": {
+                  "type": "integer"
+                },
+                "last_posted_at_timestamp": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "title",
+                "body",
+                "category",
+                "id",
+                "upvote_count",
+                "view_count",
+                "created_at",
+                "urlid",
+                "last_posted_at",
+                "reply_count",
+                "locked",
+                "best",
+                "created_at_timestamp",
+                "last_posted_at_timestamp"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "title": {
+                  "type": "string"
+                },
+                "body": {
+                  "type": "string"
+                },
+                "category": {
+                  "type": "string"
+                },
+                "id": {
+                  "type": "string"
+                },
+                "upvote_count": {
+                  "type": "integer"
+                },
+                "view_count": {
+                  "type": "integer"
+                },
+                "created_at": {
+                  "type": "string"
+                },
+                "urlid": {
+                  "type": "string"
+                },
+                "last_posted_at": {
+                  "type": "string"
+                },
+                "reply_count": {
+                  "type": "integer"
+                },
+                "locked": {
+                  "type": "boolean"
+                },
+                "best": {
+                  "type": "string"
+                },
+                "created_at_timestamp": {
+                  "type": "integer"
+                },
+                "last_posted_at_timestamp": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "title",
+                "body",
+                "category",
+                "id",
+                "upvote_count",
+                "view_count",
+                "created_at",
+                "urlid",
+                "last_posted_at",
+                "reply_count",
+                "locked",
+                "best",
+                "created_at_timestamp",
+                "last_posted_at_timestamp"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "title": {
+                  "type": "string"
+                },
+                "body": {
+                  "type": "string"
+                },
+                "category": {
+                  "type": "string"
+                },
+                "id": {
+                  "type": "string"
+                },
+                "upvote_count": {
+                  "type": "integer"
+                },
+                "view_count": {
+                  "type": "integer"
+                },
+                "created_at": {
+                  "type": "string"
+                },
+                "urlid": {
+                  "type": "string"
+                },
+                "last_posted_at": {
+                  "type": "string"
+                },
+                "reply_count": {
+                  "type": "integer"
+                },
+                "locked": {
+                  "type": "boolean"
+                },
+                "best": {
+                  "type": "string"
+                },
+                "created_at_timestamp": {
+                  "type": "integer"
+                },
+                "last_posted_at_timestamp": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "title",
+                "body",
+                "category",
+                "id",
+                "upvote_count",
+                "view_count",
+                "created_at",
+                "urlid",
+                "last_posted_at",
+                "reply_count",
+                "locked",
+                "best",
+                "created_at_timestamp",
+                "last_posted_at_timestamp"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "title": {
+                  "type": "string"
+                },
+                "body": {
+                  "type": "string"
+                },
+                "category": {
+                  "type": "string"
+                },
+                "id": {
+                  "type": "string"
+                },
+                "upvote_count": {
+                  "type": "integer"
+                },
+                "view_count": {
+                  "type": "integer"
+                },
+                "created_at": {
+                  "type": "string"
+                },
+                "urlid": {
+                  "type": "string"
+                },
+                "last_posted_at": {
+                  "type": "string"
+                },
+                "reply_count": {
+                  "type": "integer"
+                },
+                "locked": {
+                  "type": "boolean"
+                },
+                "best": {
+                  "type": "string"
+                },
+                "created_at_timestamp": {
+                  "type": "integer"
+                },
+                "last_posted_at_timestamp": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "title",
+                "body",
+                "category",
+                "id",
+                "upvote_count",
+                "view_count",
+                "created_at",
+                "urlid",
+                "last_posted_at",
+                "reply_count",
+                "locked",
+                "best",
+                "created_at_timestamp",
+                "last_posted_at_timestamp"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "title": {
+                  "type": "string"
+                },
+                "body": {
+                  "type": "string"
+                },
+                "category": {
+                  "type": "string"
+                },
+                "id": {
+                  "type": "string"
+                },
+                "upvote_count": {
+                  "type": "integer"
+                },
+                "view_count": {
+                  "type": "integer"
+                },
+                "created_at": {
+                  "type": "string"
+                },
+                "urlid": {
+                  "type": "string"
+                },
+                "last_posted_at": {
+                  "type": "string"
+                },
+                "reply_count": {
+                  "type": "integer"
+                },
+                "locked": {
+                  "type": "boolean"
+                },
+                "best": {
+                  "type": "string"
+                },
+                "created_at_timestamp": {
+                  "type": "integer"
+                },
+                "last_posted_at_timestamp": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "title",
+                "body",
+                "category",
+                "id",
+                "upvote_count",
+                "view_count",
+                "created_at",
+                "urlid",
+                "last_posted_at",
+                "reply_count",
+                "locked",
+                "best",
+                "created_at_timestamp",
+                "last_posted_at_timestamp"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "title": {
+                  "type": "string"
+                },
+                "body": {
+                  "type": "string"
+                },
+                "category": {
+                  "type": "string"
+                },
+                "id": {
+                  "type": "string"
+                },
+                "upvote_count": {
+                  "type": "integer"
+                },
+                "view_count": {
+                  "type": "integer"
+                },
+                "created_at": {
+                  "type": "string"
+                },
+                "urlid": {
+                  "type": "string"
+                },
+                "last_posted_at": {
+                  "type": "string"
+                },
+                "reply_count": {
+                  "type": "integer"
+                },
+                "locked": {
+                  "type": "boolean"
+                },
+                "best": {
+                  "type": "string"
+                },
+                "created_at_timestamp": {
+                  "type": "integer"
+                },
+                "last_posted_at_timestamp": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "title",
+                "body",
+                "category",
+                "id",
+                "upvote_count",
+                "view_count",
+                "created_at",
+                "urlid",
+                "last_posted_at",
+                "reply_count",
+                "locked",
+                "best",
+                "created_at_timestamp",
+                "last_posted_at_timestamp"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "title": {
+                  "type": "string"
+                },
+                "body": {
+                  "type": "string"
+                },
+                "category": {
+                  "type": "string"
+                },
+                "id": {
+                  "type": "string"
+                },
+                "upvote_count": {
+                  "type": "integer"
+                },
+                "view_count": {
+                  "type": "integer"
+                },
+                "created_at": {
+                  "type": "string"
+                },
+                "urlid": {
+                  "type": "string"
+                },
+                "last_posted_at": {
+                  "type": "string"
+                },
+                "reply_count": {
+                  "type": "integer"
+                },
+                "locked": {
+                  "type": "boolean"
+                },
+                "best": {
+                  "type": "string"
+                },
+                "created_at_timestamp": {
+                  "type": "integer"
+                },
+                "last_posted_at_timestamp": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "title",
+                "body",
+                "category",
+                "id",
+                "upvote_count",
+                "view_count",
+                "created_at",
+                "urlid",
+                "last_posted_at",
+                "reply_count",
+                "locked",
+                "best",
+                "created_at_timestamp",
+                "last_posted_at_timestamp"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "title": {
+                  "type": "string"
+                },
+                "body": {
+                  "type": "string"
+                },
+                "category": {
+                  "type": "string"
+                },
+                "id": {
+                  "type": "string"
+                },
+                "upvote_count": {
+                  "type": "integer"
+                },
+                "view_count": {
+                  "type": "integer"
+                },
+                "created_at": {
+                  "type": "string"
+                },
+                "urlid": {
+                  "type": "string"
+                },
+                "last_posted_at": {
+                  "type": "string"
+                },
+                "reply_count": {
+                  "type": "integer"
+                },
+                "locked": {
+                  "type": "boolean"
+                },
+                "best": {
+                  "type": "string"
+                },
+                "created_at_timestamp": {
+                  "type": "integer"
+                },
+                "last_posted_at_timestamp": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "title",
+                "body",
+                "category",
+                "id",
+                "upvote_count",
+                "view_count",
+                "created_at",
+                "urlid",
+                "last_posted_at",
+                "reply_count",
+                "locked",
+                "best",
+                "created_at_timestamp",
+                "last_posted_at_timestamp"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "title": {
+                  "type": "string"
+                },
+                "body": {
+                  "type": "string"
+                },
+                "category": {
+                  "type": "string"
+                },
+                "id": {
+                  "type": "string"
+                },
+                "upvote_count": {
+                  "type": "integer"
+                },
+                "view_count": {
+                  "type": "integer"
+                },
+                "created_at": {
+                  "type": "string"
+                },
+                "urlid": {
+                  "type": "string"
+                },
+                "last_posted_at": {
+                  "type": "string"
+                },
+                "reply_count": {
+                  "type": "integer"
+                },
+                "locked": {
+                  "type": "boolean"
+                },
+                "best": {
+                  "type": "string"
+                },
+                "created_at_timestamp": {
+                  "type": "integer"
+                },
+                "last_posted_at_timestamp": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "title",
+                "body",
+                "category",
+                "id",
+                "upvote_count",
+                "view_count",
+                "created_at",
+                "urlid",
+                "last_posted_at",
+                "reply_count",
+                "locked",
+                "best",
+                "created_at_timestamp",
+                "last_posted_at_timestamp"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "title": {
+                  "type": "string"
+                },
+                "body": {
+                  "type": "null"
+                },
+                "category": {
+                  "type": "string"
+                },
+                "id": {
+                  "type": "string"
+                },
+                "upvote_count": {
+                  "type": "integer"
+                },
+                "view_count": {
+                  "type": "integer"
+                },
+                "created_at": {
+                  "type": "string"
+                },
+                "urlid": {
+                  "type": "string"
+                },
+                "last_posted_at": {
+                  "type": "string"
+                },
+                "reply_count": {
+                  "type": "integer"
+                },
+                "locked": {
+                  "type": "boolean"
+                },
+                "best": {
+                  "type": "string"
+                },
+                "created_at_timestamp": {
+                  "type": "integer"
+                },
+                "last_posted_at_timestamp": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "title",
+                "body",
+                "category",
+                "id",
+                "upvote_count",
+                "view_count",
+                "created_at",
+                "urlid",
+                "last_posted_at",
+                "reply_count",
+                "locked",
+                "best",
+                "created_at_timestamp",
+                "last_posted_at_timestamp"
+              ]
+            }
+          ]
+        },
+        "offset": {
+          "type": "integer"
+        },
+        "limit": {
+          "type": "integer"
+        },
+        "nbHits": {
+          "type": "integer"
+        },
+        "exhaustiveNbHits": {
+          "type": "boolean"
+        },
+        "processingTimeMs": {
+          "type": "integer"
+        },
+        "query": {
+          "type": "string"
+        },
+        "facetsDistribution": {
+          "type": "object",
+          "properties": {
+            "best": {
+              "type": "object",
+              "properties": {
+                "y": {
+                  "type": "integer"
+                },
+                "n": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "y",
+                "n"
+              ]
+            },
+            "category": {
+              "type": "object",
+              "properties": {
+                "diversity": {
+                  "type": "integer"
+                },
+                "work experience": {
+                  "type": "integer"
+                },
+                "insider experience": {
+                  "type": "integer"
+                },
+                "application issues": {
+                  "type": "integer"
+                },
+                "application support": {
+                  "type": "integer"
+                },
+                "internal career mobility": {
+                  "type": "integer"
+                },
+                "eligibility": {
+                  "type": "integer"
+                },
+                "career progression": {
+                  "type": "integer"
+                },
+                "graduate scheme": {
+                  "type": "integer"
+                },
+                "work life balance": {
+                  "type": "integer"
+                },
+                "internship": {
+                  "type": "integer"
+                },
+                "role comparison": {
+                  "type": "integer"
+                },
+                "no category": {
+                  "type": "integer"
+                },
+                "team info": {
+                  "type": "integer"
+                },
+                "role challenges": {
+                  "type": "integer"
+                },
+                "company benefits": {
+                  "type": "integer"
+                },
+                "how to apply": {
+                  "type": "integer"
+                },
+                "company comparison": {
+                  "type": "integer"
+                },
+                "application process": {
+                  "type": "integer"
+                },
+                "culture": {
+                  "type": "integer"
+                },
+                "qualifications": {
+                  "type": "integer"
+                },
+                "day to day": {
+                  "type": "integer"
+                },
+                "company info": {
+                  "type": "integer"
+                },
+                "career advice": {
+                  "type": "integer"
+                },
+                "role description": {
+                  "type": "integer"
+                },
+                "application status": {
+                  "type": "integer"
+                },
+                "open positions": {
+                  "type": "integer"
+                },
+                "interview tips": {
+                  "type": "integer"
+                },
+                "application advice": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "diversity",
+                "work experience",
+                "insider experience",
+                "application issues",
+                "application support",
+                "internal career mobility",
+                "eligibility",
+                "career progression",
+                "graduate scheme",
+                "work life balance",
+                "internship",
+                "role comparison",
+                "no category",
+                "team info",
+                "role challenges",
+                "company benefits",
+                "how to apply",
+                "company comparison",
+                "application process",
+                "culture",
+                "qualifications",
+                "day to day",
+                "company info",
+                "career advice",
+                "role description",
+                "application status",
+                "open positions",
+                "interview tips",
+                "application advice"
+              ]
+            }
+          },
+          "required": [
+            "best",
+            "category"
+          ]
+        },
+        "exhaustiveFacetsCount": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "hits",
+        "offset",
+        "limit",
+        "nbHits",
+        "exhaustiveNbHits",
+        "processingTimeMs",
+        "query",
+        "facetsDistribution",
+        "exhaustiveFacetsCount"
+      ]
+    }
+  },
+  "required": [
+    "discussions"
+  ]
+}

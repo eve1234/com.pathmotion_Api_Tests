@@ -6,18 +6,18 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import static io.restassured.RestAssured.given;
 import io.restassured.specification.RequestSpecification;
-
+import static io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchemaInClasspath;
 
 
 
 
 public class Homepage {
 
-  // RestAssured.baseURI = "https://search.pathmotion.io";
+
 	String baseURI ="https://search.pathmotion.io";
 
     @Test
-    public void getHitsCount(){
+    public void getDiscussionHitCounts(){
         RequestSpecification request =given();
         Response response = request
   
@@ -41,6 +41,10 @@ public class Homepage {
         				int hitsArray = response.jsonPath().getList("discussions.hits").size();
         				String category = response.jsonPath().getString("discussions.hits.category[0]");
         				String id = response.jsonPath().getString("discussions.hits.id[0]");
+        				int statusCode = response.getStatusCode();
+        				
+        				Assert.assertEquals(statusCode /*actual status code*/, 200/*expected statusCode*/, "Correct status code returned");
+        				response.then().assertThat().body(matchesJsonSchemaInClasspath("jsonSchema/homepageSearchValidData.json"));
         
         				
         				System.out.println("number of hits: " + hitsArray);
@@ -54,5 +58,7 @@ public class Homepage {
         				//3. Verify the 'id' of the first 'hit'
         				Assert.assertEquals(id /* actual first hit id */, "91008" /* expected first hit id */);
         				
+   
+    
     }
 }
