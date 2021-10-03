@@ -18,7 +18,7 @@ public class Homepage {
 
     @Test
     public void getDiscussionHitCounts(){
-        RequestSpecification request =given();
+        RequestSpecification request = given();
         Response response = request
   
         		.header("Accept","application/json")
