@@ -13,7 +13,7 @@ Apache Maven
 1. Download the repository.
 2. Navigate to the directory -
 3. Import the project in your chosen IDE
-4. In eclipse IDE, right click the project, select Maven -> Update Project ->
+4. In the eclipse IDE, right click the project, select Maven -> Update Project ->
 5. Accept the default selections and click on OK.
 	This will install all the dependencies from the pom.xml file for you to run the tests.
 6. Right click the project and select 'Run as' -> 'TestNG Test'.
@@ -23,7 +23,7 @@ Apache Maven
 ### View Report
 
 1. Navigate into the test-output folder
-2. Right click index.html file and open with 'Web Browser'.
+2. Right click the index.html file and open with a 'Web Browser'.
 
 
 
